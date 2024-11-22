@@ -18,28 +18,28 @@
   
   /* Button Styling */
   .custom-btn {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 1.5rem; /* Slightly smaller than the title */
-    color: #333;
-    background-color: #e0e0e0;
-    border: 3px solid #ccc; /* Match the bold style of the border */
-    border-radius: 10px;
-    padding: 0.5rem 1.5rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a shadow to the text */
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3); /* Add a shadow to the button */
-    cursor: pointer;
-    transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s;
+    font-family: 'Bebas Neue', sans-serif !important;
+    font-size: 1.5rem !important;/* Slightly smaller than the title */
+    color: #333 !important;
+    background-color: #e0e0e0 !important;
+    border: 3px solid #ccc !important; /* Match the bold style of the border */
+    border-radius: 10px !important;
+    padding: 0.5rem 1.5rem !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3) !important; /* Add a shadow to the text */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3) !important; /* Add a shadow to the button */
+    cursor: pointer !important;
+    transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s !important;
   }
   
   .custom-btn:hover {
-    background-color: #d6d6d6;
-    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.7); /* Enhance shadow on hover */
-    transform: translateY(-2px); /* Slight hover lift */
+    background-color: #d6d6d6 !important;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.7) !important; /* Enhance shadow on hover */
+    transform: translateY(-2px) !important; /* Slight hover lift */
   }
   
   .custom-btn:active {
-    transform: translateY(1px); /* Subtle push effect */
-    background-color: #c2c2c2;
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3); /* Reduce shadow on click */
+    transform: translateY(1px) !important; /* Subtle push effect */
+    background-color: #c2c2c2 !important;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3) !important; /* Reduce shadow on click */
   }
   
