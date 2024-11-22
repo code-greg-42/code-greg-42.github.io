@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.custom-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5rem;
+    letter-spacing: 4px;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 0.25rem;
+    border-bottom: 3px solid #333;
+  }
+
+/* Navbar Container Styling */
+.custom-navbar {
+    margin: 1rem 0; /* Add some spacing below the title */
+    gap: 1rem; /* Space between buttons */
+  }
+  
+  /* Button Styling */
+  .custom-btn {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5rem; /* Slightly smaller than the title */
+    color: #333;
+    background-color: #e0e0e0;
+    border: 3px solid #ccc; /* Match the bold style of the border */
+    border-radius: 10px;
+    padding: 0.5rem 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a shadow to the text */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3); /* Add a shadow to the button */
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s;
+  }
+  
+  .custom-btn:hover {
+    background-color: #d6d6d6;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.7); /* Enhance shadow on hover */
+    transform: translateY(-2px); /* Slight hover lift */
+  }
+  
+  .custom-btn:active {
+    transform: translateY(1px); /* Subtle push effect */
+    background-color: #c2c2c2;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3); /* Reduce shadow on click */
+  }
+  
