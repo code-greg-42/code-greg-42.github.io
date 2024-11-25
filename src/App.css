@@ -1,26 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 
 .custom-title {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 5rem;
-    letter-spacing: 4px;
-    color: #333;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    padding: 0.25rem;
-    border-bottom: 3px solid #333;
+    font-family: 'Bebas Neue', sans-serif !important;
+    font-size: 5rem !important;
+    letter-spacing: 4px !important;
+    color: #333 !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5) !important;
+    padding: 0.25rem !important;
+    margin-bottom: 0 !important;
+  }
+
+.custom-line {
+    width: 87% !important; /* Full width under the title */
+    height: 5px !important; /* Thickness of the line */
+    background-color: #b4e431 !important; /* Green color */
+    box-shadow: 0px 0px 10px 3px rgba(180, 228, 49, 0.6) !important; /* Glowing effect */
+    border-radius: 5px !important; /* Optional rounded corners */
+    margin-bottom: 1rem !important; /* Spacing below the line */
+    margin: 0rem auto !important;
+  }
+
+.content-title-container {
+  width: 60% !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+}
+  
+.short-line {
+    width: 100% !important;
+    height: 3px !important; /* Thickness of the line */
+    background-color: #b4e431 !important; /* Match the custom green color */
+    box-shadow: 0px 0px 10px 3px rgba(180, 228, 49, 0.6) !important; /* Glowing effect */
+    border-radius: 5px !important; /* Optional: Rounds the edges */
+    margin: 0rem auto !important;
+  }
+
+  .section-line {
+    width: 100% !important; /* Shorter width compared to the title line */
+    height: 2px !important; /* Thickness of the line */
+    background-color: #b4e431 !important; /* Match the custom green color */
+    box-shadow: 0px 0px 10px 3px rgba(180, 228, 49, 0.5) !important; /* Glowing effect */
+    border-radius: 5px !important; /* Optional: Rounds the edges */
+    margin: 0rem auto !important;
+  }
+
+  .card-heading {
+    font-family: 'Bebas Neue', sans-serif !important;
+    font-size: 2rem !important;
+    letter-spacing: 3px !important;
+    color: #444 !important;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) !important;
+  }
+  
+  /* Card Body Font (different for readability) */
+  .card-body {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 1rem !important;
+    line-height: 1.6 !important;
+    color: #555 !important;
+  }
+
+  .card-note {
+    font-family: 'Robot', sans-serif !important;
+    font-size: 0.9rem !important;
+    color:#777 !important;
+    font-style: italic !important;
   }
 
 /* Navbar Container Styling */
 .custom-navbar {
-    margin: 1rem 0; /* Add some spacing below the title */
-    gap: 1rem; /* Space between buttons */
+    margin: 1rem 0 !important; /* Add some spacing below the title */
+    gap: 1rem !important; /* Space between buttons */
   }
   
   /* Button Styling */
   .custom-btn {
     font-family: 'Bebas Neue', sans-serif !important;
     font-size: 1.5rem !important;/* Slightly smaller than the title */
-    color: #333 !important;
+    color: #444 !important;
     background-color: #e0e0e0 !important;
     border: 3px solid #ccc !important; /* Match the bold style of the border */
     border-radius: 10px !important;
@@ -32,7 +91,8 @@
   }
   
   .custom-btn:hover {
-    background-color: #d6d6d6 !important;
+    background-color: #b4e431 !important;
+    color:#111 !important;
     box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.7) !important; /* Enhance shadow on hover */
     transform: translateY(-2px) !important; /* Slight hover lift */
   }
@@ -42,4 +102,45 @@
     background-color: #c2c2c2 !important;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3) !important; /* Reduce shadow on click */
   }
+
+  .custom-border {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7) !important; /* Add shadow for depth */
+    border-radius: 20px !important; /* Rounds corners */
+  }
+  
+  .key-features {
+    margin-top: 2rem !important; /* Add spacing above the Key Features section */
+  }
+  
+  .key-feature-item {
+    margin-bottom: 1.5rem !important; /* Add spacing between each feature */
+  }
+  
+  .key-feature-title {
+    font-family: 'Bebas Neue', sans-serif !important;
+    font-size: 1.5rem !important;
+    letter-spacing: 1px !important;
+    color: #444 !important;
+    margin-bottom: 0.5rem !important; /* Space between the title and description */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3) !important;
+  }
+  
+  .key-feature-item p {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 1rem !important;
+    line-height: 1.6 !important;
+    color: #555 !important; /* Softer color for readability */
+    margin: 0 !important; /* Reset margins for tighter control */
+  }
+
+  .custom-list-item {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 1rem !important;
+    color:#555 !important;
+  }
+
+  .custom-list-item strong {
+    font-family: 'Bebas Neue', sans-serif !important;
+  }
+
   
