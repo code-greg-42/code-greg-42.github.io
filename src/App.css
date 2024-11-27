@@ -13,12 +13,12 @@
   }
 
 .custom-line {
-    width: 87% !important; /* Full width under the title */
-    height: 5px !important; /* Thickness of the line */
-    background-color: #b4e431 !important; /* Green color */
-    box-shadow: 0px 0px 10px 3px rgba(180, 228, 49, 0.6) !important; /* Glowing effect */
-    border-radius: 5px !important; /* Optional rounded corners */
-    margin-bottom: 1rem !important; /* Spacing below the line */
+    width: 87% !important;
+    height: 5px !important;
+    background-color: #b4e431 !important;
+    box-shadow: 0px 0px 10px 3px rgba(180, 228, 49, 0.6) !important;
+    border-radius: 5px !important;
+    margin-bottom: 1rem !important;
     margin: 0rem auto !important;
   }
 
@@ -30,19 +30,19 @@
   
 .short-line {
     width: 100% !important;
-    height: 3px !important; /* Thickness of the line */
-    background-color: #b4e431 !important; /* Match the custom green color */
-    box-shadow: 0px 0px 10px 3px rgba(180, 228, 49, 0.6) !important; /* Glowing effect */
-    border-radius: 5px !important; /* Optional: Rounds the edges */
+    height: 3px !important;
+    background-color: #b4e431 !important;
+    box-shadow: 0px 0px 10px 3px rgba(180, 228, 49, 0.6) !important;
+    border-radius: 5px !important; 
     margin: 0rem auto !important;
   }
 
   .section-line {
-    width: 100% !important; /* Shorter width compared to the title line */
-    height: 2px !important; /* Thickness of the line */
-    background-color: #b4e431 !important; /* Match the custom green color */
-    box-shadow: 0px 0px 10px 3px rgba(180, 228, 49, 0.5) !important; /* Glowing effect */
-    border-radius: 5px !important; /* Optional: Rounds the edges */
+    width: 100% !important;
+    height: 2px !important;
+    background-color: #b4e431 !important;
+    box-shadow: 0px 0px 10px 3px rgba(180, 228, 49, 0.5) !important;
+    border-radius: 5px !important;
     margin: 0rem auto !important;
   }
 
@@ -54,7 +54,6 @@
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) !important;
   }
   
-  /* Card Body Font (different for readability) */
   .card-body {
     font-family: 'Roboto', sans-serif !important;
     font-size: 1rem !important;
@@ -69,23 +68,21 @@
     font-style: italic !important;
   }
 
-/* Navbar Container Styling */
-.custom-navbar {
-    margin: 1rem 0 !important; /* Add some spacing below the title */
-    gap: 1rem !important; /* Space between buttons */
+  .custom-navbar {
+    margin: 1rem 0 !important;
+    gap: 1rem !important;
   }
   
-  /* Button Styling */
   .custom-btn {
     font-family: 'Bebas Neue', sans-serif !important;
-    font-size: 1.5rem !important;/* Slightly smaller than the title */
+    font-size: 1.5rem !important;
     color: #444 !important;
     background-color: #e0e0e0 !important;
-    border: 3px solid #ccc !important; /* Match the bold style of the border */
+    border: 3px solid #ccc !important;
     border-radius: 10px !important;
     padding: 0.5rem 1.5rem !important;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3) !important; /* Add a shadow to the text */
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3) !important; /* Add a shadow to the button */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3) !important;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3) !important;
     cursor: pointer !important;
     transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s !important;
   }
@@ -93,27 +90,20 @@
   .custom-btn:hover {
     background-color: #b4e431 !important;
     color:#111 !important;
-    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.7) !important; /* Enhance shadow on hover */
-    transform: translateY(-2px) !important; /* Slight hover lift */
+    border: 3px solid #9cb730 !important;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.7) !important;
+    transform: translateY(-2px) !important;
   }
   
   .custom-btn:active {
-    transform: translateY(1px) !important; /* Subtle push effect */
+    transform: translateY(1px) !important;
     background-color: #c2c2c2 !important;
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3) !important; /* Reduce shadow on click */
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3) !important;
   }
 
   .custom-border {
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7) !important; /* Add shadow for depth */
-    border-radius: 20px !important; /* Rounds corners */
-  }
-  
-  .key-features {
-    margin-top: 2rem !important; /* Add spacing above the Key Features section */
-  }
-  
-  .key-feature-item {
-    margin-bottom: 1.5rem !important; /* Add spacing between each feature */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7) !important;
+    border-radius: 20px !important;
   }
   
   .key-feature-title {
@@ -121,7 +111,6 @@
     font-size: 1.5rem !important;
     letter-spacing: 1px !important;
     color: #444 !important;
-    margin-bottom: 0.5rem !important; /* Space between the title and description */
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3) !important;
   }
   
@@ -129,18 +118,46 @@
     font-family: 'Roboto', sans-serif !important;
     font-size: 1rem !important;
     line-height: 1.6 !important;
-    color: #555 !important; /* Softer color for readability */
-    margin: 0 !important; /* Reset margins for tighter control */
+    color: #555 !important;
   }
 
   .custom-list-item {
     font-family: 'Roboto', sans-serif !important;
     font-size: 1rem !important;
     color:#555 !important;
+    line-height: 1.6 !important;
   }
 
-  .custom-list-item strong {
-    font-family: 'Bebas Neue', sans-serif !important;
+  .custom-link {
+    color:#6da23d !important;
+    transition: color 0.3s ease, text-shadow 0.3s ease !important;
   }
 
-  
+  .custom-link:hover {
+    color: #4c7c2a !important;
+    text-shadow: 0px 0px 4px rgba(76, 124, 42, 0.3) !important;
+  }
+
+  .separation-line {
+    width: 100% !important;
+    height: 1px !important;
+    background-color: #ddd !important;
+    box-shadow: 0px 0px 10px 3px rgba(247, 247, 247, 0.3) !important;
+    border-radius: 5px !important;
+    margin: 0rem auto !important;
+  }
+
+  .custom-image {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3) !important;
+  }
+
+  .custom-video {
+    max-width: 90% !important;
+    margin: 0 auto !important;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7) !important;
+  }
+
+  .custom-footer {
+    background-color: #e6e6e6 !important;
+    font-size: 0.9rem !important;
+  }

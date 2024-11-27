@@ -3,6 +3,7 @@ import FeatureProject from './components/FeatureProject';
 import OtherProjects from './components/OtherProjects';
 import About from './components/About';
 import './App.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 function App() {
   const [activePage, setActivePage] = useState('FeatureProject'); // default
@@ -51,7 +52,35 @@ function App() {
             </div>
           </div>
         </nav>
-        <div className="content-container">{renderPage()}</div>
+        <div className="content-container mb-5">{renderPage()}</div>
+        <div className="separation-line mb-5"></div>
+
+        {/* Footer */}
+        <footer className="text-center text-dark py-2 custom-footer">
+          <p className="mb-2">
+            &copy; 2024 GamesByGreg. All projects are open-source and available on GitHub.
+          </p>
+          <div className="d-flex justify-content-center gap-2">
+            <a
+              href="https://github.com/code-greg-42"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-outline-secondary btn-sm"
+            >
+              <i className="fab fa-github me-1"></i> GitHub
+            </a>
+            <a
+              href="https://www.linkedin.com/in/gregory-andersson-3705a6176/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-outline-secondary btn-sm"
+            >
+              <i className="fab fa-linkedin me-1"></i> LinkedIn
+            </a>
+          </div>
+        </footer>
+
+
       </div>
     </div>
   );
