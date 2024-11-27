@@ -7,7 +7,7 @@ const FeatureProject = () => {
       };
   return (
     <div className="container">
-      <div className="border border-3 p-4 custom-border">
+      <div className="p-1 p-md-4 custom-border">
 
         {/* Title */}
         <div className="content-title-container">
@@ -192,7 +192,7 @@ const FeatureProject = () => {
                 rel="noopener noreferrer"
                 className="custom-link"
                 >
-                <b>GitHub Repository</b> (https://github.com/code-greg-42/Orbit-Oasis)
+                <b>GitHub Repository</b>
                 </a>
             </li>
             <li className="mb-2">
@@ -202,7 +202,7 @@ const FeatureProject = () => {
                 rel="noopener noreferrer"
                 className="custom-link"
                 >
-                <b>Game Page</b> on itch.io (https://grandersson.itch.io/orbit-oasis)
+                <b>Game Page on itch.io</b>
                 </a>
             </li>
             <li className="mb-2">
@@ -212,7 +212,7 @@ const FeatureProject = () => {
                 rel="noopener noreferrer"
                 className="custom-link"
                 >
-                <b>Game Trailer</b> on Youtube (https://youtu.be/Y6ZFQQC7rkk)
+                <b>Game Trailer on YouTube</b>
                 </a>
             </li>
             <li className="mb-2">
@@ -222,7 +222,7 @@ const FeatureProject = () => {
                 rel="noopener noreferrer"
                 className="custom-link"
                 >
-                <b>Gameplay Video</b> (Space Race Minigame) on Youtube (https://youtu.be/8dULJcSHKwY)
+                <b>Gameplay Video (Space Race Minigame) on YouTube</b>
                 </a>
             </li>
             <li className="mb-2">
@@ -232,7 +232,7 @@ const FeatureProject = () => {
                 rel="noopener noreferrer"
                 className="custom-link"
                 >
-                <b>Gameplay Video</b> (Full Tutorial Playthrough) on Youtube (https://youtu.be/dJkheYfaU6U)
+                <b>Gameplay Video (Full Tutorial Playthrough) on YouTube</b>
                 </a>
             </li>
         </ul>

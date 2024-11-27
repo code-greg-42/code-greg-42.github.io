@@ -7,7 +7,7 @@ const OtherProjects = () => {
 
   return (
     <div className="container">
-      <div className="border border-3 p-4 custom-border">
+      <div className="p-1 p-md-4 custom-border">
 
         {/* Title */}
         <div className="content-title-container">
@@ -46,7 +46,7 @@ const OtherProjects = () => {
         </div>
         {/* Screenshots */}
         <div className="key-feature-title">Screenshots</div>
-        <div className="row g-3"> {/* Bootstrap row with gaps */}
+        <div className="row g-3">
             <div className="col-md-6">
                 <a
                 href="https://img.itch.zone/aW1hZ2UvMjczOTU3OC8xNjM0NTAxNC5wbmc=/original/azqntv.png"
@@ -98,7 +98,7 @@ const OtherProjects = () => {
                 rel="noopener noreferrer"
                 className="custom-link"
                 >
-                <b>GitHub Repository</b> (https://github.com/code-greg-42/Improbability-Police)
+                <b>GitHub Repository</b>
                 </a>
             </li>
             <li className="mb-2">
@@ -108,7 +108,7 @@ const OtherProjects = () => {
                 rel="noopener noreferrer"
                 className="custom-link"
                 >
-                <b>Game Page</b> on itch.io (https://grandersson.itch.io/improbability-police)
+                <b>Game Page on itch.io</b>
                 </a>
             </li>
             <li className="mb-2">
@@ -118,7 +118,7 @@ const OtherProjects = () => {
                 rel="noopener noreferrer"
                 className="custom-link"
                 >
-                <b>Gameplay Video</b> on Youtube (https://youtu.be/WctE6Gbzzak)
+                <b>Gameplay Video on YouTube</b>
                 </a>
             </li>
             <li className="mb-2">
@@ -128,7 +128,7 @@ const OtherProjects = () => {
                 rel="noopener noreferrer"
                 className="custom-link"
                 >
-                <b>Narrative Video</b> on Youtube (https://youtu.be/IQmGUNdRSwQ)
+                <b>Narrative Video on YouTube</b>
                 </a>
             </li>
         </ul>
@@ -157,7 +157,7 @@ const OtherProjects = () => {
         </div>
         {/* Screenshots */}
         <div className="key-feature-title">Screenshots</div>
-        <div className="row g-3"> {/* Bootstrap row with gaps */}
+        <div className="row g-3">
             <div className="col-md-6">
                 <a
                 href="https://github.com/code-greg-42/Skele-Island/blob/main/Screenshots/skele-island-2.png?raw=true"
@@ -215,7 +215,7 @@ const OtherProjects = () => {
                 rel="noopener noreferrer"
                 className="custom-link"
                 >
-                <b>GitHub Repository</b> (https://github.com/code-greg-42/Skele-Island)
+                <b>GitHub Repository</b>
                 </a>
             </li>
             <li className="mb-2">
@@ -225,7 +225,7 @@ const OtherProjects = () => {
                 rel="noopener noreferrer"
                 className="custom-link"
                 >
-                <b>Unity Play</b> WebGL build (https://play.unity.com/en/games/59be5606-6843-4fff-a3f8-651f5eb0e2cb/skele-island)
+                <b>Unity Play WebGL build</b>
                 </a>
             </li>
             <li className="mb-2">
@@ -235,7 +235,7 @@ const OtherProjects = () => {
                 rel="noopener noreferrer"
                 className="custom-link"
                 >
-                <b>Gameplay Video</b> on Youtube (https://youtu.be/KBcFlNdj8Iw)
+                <b>Gameplay Video on YouTube</b>
                 </a>
             </li>
         </ul>
@@ -249,7 +249,7 @@ const OtherProjects = () => {
         </div>
         <p className="card-body mb-4">PowerHouse: Aim Practice functions as a simple aim trainer for those wishing to improve their mouse clicking abilities for shooters and aim-related games. It also includes 3 fun abilities to add a layer of decision-making and strategy not usually seen in aim trainers, but seen frequently in modern shooting games. As my first portfolio project, the simplicity of PowerHouse allowed me to get comfortable using Unity's Physics System and learn the ropes.
         </p>
-        {/* Skele-Island Links */}
+        {/* PowerHouse Links */}
         <div className="d-flex justify-content-center gap-3 mb-4">
             <button className="custom-btn" onClick={() => openLink('https://play.unity.com/en/games/4a46ca87-b84e-411a-969b-a9b17a313efb/powerhouse11')}>
             play now
@@ -317,7 +317,7 @@ const OtherProjects = () => {
                 rel="noopener noreferrer"
                 className="custom-link"
                 >
-                <b>GitHub Repository</b> (https://github.com/code-greg-42/PowerHouseScripts)
+                <b>GitHub Repository</b>
                 </a>
             </li>
             <li className="mb-2">
@@ -327,7 +327,7 @@ const OtherProjects = () => {
                 rel="noopener noreferrer"
                 className="custom-link"
                 >
-                <b>Unity Play</b> WebGL build (https://play.unity.com/en/games/4a46ca87-b84e-411a-969b-a9b17a313efb/powerhouse11)
+                <b>Unity Play WebGL Build</b>
                 </a>
             </li>
         </ul>

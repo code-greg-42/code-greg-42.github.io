@@ -7,7 +7,7 @@ const About = () => {
       };
   return (
     <div className="container">
-        <div className="border border-3 py-4 px-5 custom-border">
+        <div className="p-1 py-md-4 px-md-5 custom-border">
             {/* Title */}
             <div className="content-title-container">
             <h2 className="card-heading text-center">About</h2>
@@ -15,10 +15,10 @@ const About = () => {
             </div>
 
             {/* Content */}
-            <div className="row align-items-start px-1 py-3">
+            <div className="row align-items-start px-1 py-1 py-md-3">
 
             {/* Photo */}
-                <div className="col-md-4 text-center mb-3 mb-md-0">
+                <div className="col-md-4 text-center mb-3 mb-md-0 px-5 px-md-2">
                     <img
                     src="/images/greg_and_cooper.jpg"
                     alt="Greg and Cooper"

@@ -43,7 +43,7 @@ function App() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
-            <div className="navbar-nav d-flex gap-3">
+            <div className="navbar-nav d-flex gap-2 gap-md-3">
               <button className="nav-item nav-link custom-btn" onClick={() => setActivePage('FeatureProject')}>Feature Project</button>
               <button className="nav-item nav-link custom-btn" onClick={() => setActivePage('OtherProjects')}>Other Projects</button>
               <button className="nav-item nav-link custom-btn" onClick={() => setActivePage('About')}>About</button>
