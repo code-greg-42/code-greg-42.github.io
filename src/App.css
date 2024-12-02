@@ -101,7 +101,6 @@
 
   @media (max-width:767.98px) {
     .custom-btn {
-      font-size: 1.5rem !important;
       border: 2px solid #ccc !important;
       border-radius: 2px !important;
     }

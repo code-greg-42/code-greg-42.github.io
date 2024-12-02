@@ -1,9 +1,6 @@
 import React from 'react';
 
-const OtherProjects = () => {
-    const openLink = (url) => {
-        window.open(url, '_blank', 'noopener, noreferrer');
-      };
+const OtherProjects = ({ openLink }) => {
 
   return (
     <div className="container">
@@ -146,13 +143,13 @@ const OtherProjects = () => {
         {/* Skele-Island Links */}
         <div className="d-flex justify-content-center gap-3 mb-4">
             <button className="custom-btn" onClick={() => openLink('https://www.youtube.com/watch?v=KBcFlNdj8Iw')}>
-            watch
+            watch video
             </button>
             <button className="custom-btn" onClick={() => openLink('https://play.unity.com/en/games/59be5606-6843-4fff-a3f8-651f5eb0e2cb/skele-island')}>
-            play
+            play now
             </button>
             <button className="custom-btn" onClick={() => openLink('https://github.com/code-greg-42/Skele-Island')}>
-            GitHub
+            view GitHub
             </button>
         </div>
         {/* Screenshots */}

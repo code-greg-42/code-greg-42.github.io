@@ -6,23 +6,23 @@ import './App.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 function App() {
-  const [activePage, setActivePage] = useState('FeatureProject'); // default
+  const [activePage, setActivePage] = useState('FeatureProject');
+
+  const openLink = (url) => {
+    window.open(url, '_blank', 'noopener, noreferrer');
+  };
 
   const renderPage = () => {
     switch (activePage) {
       case 'FeatureProject':
-        return <FeatureProject />;
+        return <FeatureProject openLink={openLink} />;
       case 'OtherProjects':
-        return <OtherProjects />;
+        return <OtherProjects openLink={openLink} />;
       case 'About':
-        return <About />;
+        return <About openLink={openLink} />;
       default:
-        return <FeatureProject />;
+        return <FeatureProject openLink={openLink} />;
     }
-  };
-
-  const openLink = (url) => {
-    window.open(url, '_blank', 'noopener, noreferrer');
   };
 
   return (
@@ -48,7 +48,7 @@ function App() {
               <button className="nav-item nav-link custom-btn" onClick={() => setActivePage('OtherProjects')}>Other Projects</button>
               <button className="nav-item nav-link custom-btn" onClick={() => setActivePage('About')}>About</button>
               <button className="nav-item nav-link custom-btn" onClick={() => openLink('https://github.com/code-greg-42')}>GitHub</button>
-              <button className="nav-item nav-link custom-btn" onClick={() => openLink('https://www.linkedin.com/in/gregory-andersson-3705a6176/')}>LinkedIn</button>
+              <button className="nav-item nav-link custom-btn" onClick={() => openLink('https://www.linkedin.com/in/gregory-andersson')}>LinkedIn</button>
             </div>
           </div>
         </nav>

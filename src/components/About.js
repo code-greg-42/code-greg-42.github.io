@@ -1,10 +1,7 @@
 import React from 'react';
 
-const About = () => {
+const About = ({ openLink }) => {
 
-    const openLink = (url) => {
-        window.open(url, '_blank', 'noopener, noreferrer');
-      };
   return (
     <div className="container">
         <div className="p-1 py-md-4 px-md-5 custom-border">
@@ -47,8 +44,11 @@ const About = () => {
 
             <div className="separation-line"></div>
 
-            <div className="mt-4 text-center">
-                <button className="custom-btn" onClick={() => openLink('https://www.linkedin.com/in/gregory-andersson-3705a6176/')}>
+            <div className="d-flex mt-4 justify-content-center gap-3">
+                <button className="custom-btn" onClick={() => openLink('/docs/greg_andersson_resume.pdf')}>
+                download resume
+                </button>
+                <button className="custom-btn" onClick={() => openLink('https://www.linkedin.com/in/gregory-andersson')}>
                 connect on linkedin
                 </button>
             </div>

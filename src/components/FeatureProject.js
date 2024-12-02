@@ -1,10 +1,7 @@
 import React from 'react';
 
-const FeatureProject = () => {
+const FeatureProject = ({ openLink }) => {
 
-    const openLink = (url) => {
-        window.open(url, '_blank', 'noopener, noreferrer');
-      };
   return (
     <div className="container">
       <div className="p-1 p-md-4 custom-border">
@@ -122,7 +119,7 @@ const FeatureProject = () => {
             <div className="section-line"></div>
         </div>
 
-        <div className="row g-3"> {/* Bootstrap row with gaps */}
+        <div className="row g-3">
             <div className="col-md-6">
                 <a
                 href="https://img.itch.zone/aW1hZ2UvMzExODQxNy8xODYzNzEzMi5wbmc=/original/4oN5L6.png"
