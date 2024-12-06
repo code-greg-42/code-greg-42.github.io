@@ -6,6 +6,6 @@ The site highlights my game development projects and provides information about 
 
 ---
 
-## Built With
+## Built With 🛠️
 - **React**: Version 18.2.0
 - **Bootstrap**: Version 5.3.3
